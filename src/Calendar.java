@@ -26,18 +26,23 @@ public class Calendar {
 
         int month = 1;
         while (true) {
-            System.out.println("달을 입력하세용 ㅋ");
-            System.out.print(PROMPT);
-            month = scanner.nextInt();
+            try {
+                System.out.println("달을 입력하세용 ㅋ");
+                System.out.print(PROMPT);
 
-            if (month == -1) {
+                month = scanner.nextInt();
+                if (month == -1) {
+                    break;
+                }
+
+                if (month > 12) {
+                    continue;
+                }
+                System.out.printf("%d월은 %d일까지 있슴ㅋ.\n", month, cal.getMaxDaysOfMonth(month));
+            } catch (Exception ex) {
+                System.out.println(ex.getMessage());
                 break;
             }
-
-            if (month > 12) {
-                continue;
-            }
-            System.out.printf("%d월은 %d일까지 있슴ㅋ.\n", month, cal.getMaxDaysOfMonth(month));
         }
 
         System.out.println("Bye..");
