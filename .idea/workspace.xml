@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="13c54587-ff2b-49c8-8ed3-89f67eac5e9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calendar/Calendar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calendar/Calendar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calendar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="386">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding>
                 <element signature="e#177#178#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
@@ -96,7 +95,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580984037052" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580985274875" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -145,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580980557400</updated>
-      <workItem from="1580980560336" duration="3380000" />
+      <workItem from="1580980560336" duration="4174000" />
     </task>
     <task id="LOCAL-00001" summary="update calendar main()">
       <created>1580981335314</created>
@@ -168,11 +167,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580983783652</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update print methods">
+      <created>1580984129753</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580984129753</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3380000" />
+    <option name="totallyTimeSpent" value="4174000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,7 +257,8 @@
     <MESSAGE value="update calendar main()" />
     <MESSAGE value="add sum.java" />
     <MESSAGE value="Implement find max days of the month" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement find max days of the month" />
+    <MESSAGE value="update print methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="update print methods" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Sum.java">
@@ -263,8 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="386">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
             <element signature="e#177#178#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
